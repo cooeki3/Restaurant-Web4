@@ -1,0 +1,46 @@
+.nav-content {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: var(--couleur-rouge);
+    color: var(--couleur-beige);
+    overflow-x: hidden;
+    transition: all 0.3s ease-out;
+
+    ul {
+        position: relative;
+        top: 10%;
+        width: 100%;
+        height: 100vp;
+        text-align: center;
+        margin-top: 40px;
+        margin-top: 30px;
+        font-family: var(--police-parisian);
+        font-size: 40px;
+
+        li {
+            list-style: none;
+            padding: 8px;
+            margin-bottom: 20px;
+            white-space: nowrap;
+            display: block;
+
+            a {
+                text-decoration: none;
+                display: block;
+            }
+        }
+    }
+
+    a.close-btn {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        border: solid 2px brown;
+        font-weight: 100;
+        /* font-size: 100px; */
+    }
+}
