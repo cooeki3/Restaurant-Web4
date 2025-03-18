@@ -1,17 +1,26 @@
 .btn-container {
     position: absolute;
-    top: 50%;
+    top: 750px;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1; /* Ensure the button is on top of the video */
+    z-index: 1;
+    /* Ensure the button is on top of the video */
 }
 
 .reserver-btn {
-    padding: 10px 20px;
+    padding: 10px 25px;
+    padding-top: 13px;
     font-size: 16px;
     background-color: none;
-    color:  var(--couleur-beige);
-    border: solid 2px;
+    color: var(--couleur-beige);
+    border: solid 1px var(--couleur-beige);
+    font-family: var(--police-hind);
+    text-transform: uppercase;
+    border-radius: 30px;
     cursor: pointer;
-    z-index: 1; /* Ensure the button is on top of the video */
+    z-index: 1;
 }
+
+/* .fleche-accueil{
+
+} */
