@@ -1,0 +1,18 @@
+/* /////////////////////////////////////////////////////*/
+/*[ importation du dossier _base ]*/
+@import url('_base/variables.css');
+@import url('_base/reset.css');
+@import url('_base/typo.css');
+
+/*[ importation du dossier _composants ]*/
+@import url('_composants/footer.css');
+@import url('_composants/header-logo.css');
+@import url('_composants/nav-primary.css');
+@import url('_composants/nav-burger.css');
+@import url('_composants/nav-menu.css');
+@import url('_composants/nav-close.css');
+
+/*[ importation du dossier _layout ]*/
+@import url('_layout/structure.css');
+
+/* /////////////////////////////////////////////////////*/
