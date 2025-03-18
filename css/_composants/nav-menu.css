@@ -8,18 +8,31 @@
     background-color: var(--couleur-rouge);
     color: var(--couleur-beige);
     overflow-x: hidden;
-    transition: all 0.3s ease-out;
+    transition: all 0.6s ease-out;
+
+    #nav-links {
+        height: 85vh;
+        border: solid 2 px red;
+    }
 
     ul {
         position: relative;
         top: 10%;
         width: 100%;
-        height: 100%;
         text-align: center;
         margin-top: 40px;
         margin-top: 30px;
         font-family: var(--police-parisian);
         font-size: 40px;
+        transition: all 1s ease-out;
+
+        hr {
+            border: solid 0.5px var(--couleur-beige);
+            margin-top: 55px;
+            width: 75vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
         li {
             list-style: none;
@@ -28,9 +41,6 @@
             white-space: nowrap;
             display: block;
 
-            hr {
-                border: solid 1px var(--couleur-beige);
-            }
 
             a {
                 text-decoration: none;
@@ -44,8 +54,5 @@
         position: absolute;
         top: 15px;
         left: 15px;
-        border: solid 2px brown;
-        font-weight: 100;
-        /* font-size: 100px; */
     }
 }
