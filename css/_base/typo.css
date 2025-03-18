@@ -1,37 +1,37 @@
 @font-face {
     font-family: "Hind Guntur";
-    src: url("fonts/HindGuntur-Regular.ttf") format("truetype");
+    src: url("../../assets/fonts/HindGuntur-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Hind Guntur";
-    src: url("fonts/HindGuntur-Light.ttf") format("truetype");
+    src: url("../../assets/fonts/HindGuntur-Light.ttf") format("truetype");
     font-weight: 300;
 }
 
 @font-face {
     font-family: "Hind Guntur";
-    src: url("fonts/HindGuntur-Medium.ttf") format("truetype");
+    src: url("../../assets/fonts/HindGuntur-Medium.ttf") format("truetype");
     font-weight: 500;
 }
 
 @font-face {
     font-family: "Hind Guntur";
-    src: url("fonts/HindGuntur-SemiBold.ttf") format("truetype");
+    src: url("../../assets/fonts/HindGuntur-SemiBold.ttf") format("truetype");
     font-weight: 600;
 }
 
 @font-face {
     font-family: "Hind Guntur";
-    src: url("fonts/HindGuntur-Bold.ttf") format("truetype");
+    src: url("../../assets/fonts/HindGuntur-Bold.ttf") format("truetype");
     font-weight: 700;
 }
 
 @font-face {
     font-family: "Parisian";
-    src: url("fonts/parisian.otf") format("opentype");
+    src: url("../../assets/fonts/parisian.otf") format("opentype");
 }
 
 :root {

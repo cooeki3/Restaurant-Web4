@@ -1,0 +1,34 @@
+body.erreur404 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--couleur-rouge);
+    color: var(--couleur-beige);
+    font-family: var(--police-hind);
+    margin: 0;
+
+    .container {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 100px;
+        margin-bottom: 190px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 250px;
+    }
+
+    a {
+        color: var(--couleur-beige);
+        text-decoration: none;
+        font-size: 20px;
+        border: 1px solid var(--couleur-beige);
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+}

@@ -11,6 +11,7 @@
 @import url('_composants/nav-burger.css');
 @import url('_composants/nav-menu.css');
 @import url('_composants/boutons.css');
+@import url('_composants/erreur404.css');
 
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');
