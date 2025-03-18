@@ -12,11 +12,11 @@ footer p {
     margin: 10px;
     padding-bottom: 5px;
     font-size: 13px;
-    font-weight: 300; /* Normal weight */
+    font-weight: 300;
 }
 
 footer .horaire, .rejoindre {
-    font-weight: 700; /* Bold weight */
+    font-weight: 700;
     font-size: 15px;
 }
 
@@ -38,7 +38,7 @@ footer .footer-links a {
     color: var(--couleur-beige-pale);
     font-family: var(--police-hind);
     text-decoration: none;
-    font-weight: 300; /* Semi-bold weight */
+    font-weight: 300; 
 }
 
 footer .social-media {
@@ -67,3 +67,8 @@ footer .droits {
     font-weight: 300;
     /* pas centré?? idk */
 }
+
+.nav-footer{
+    margin-top: 0;
+    margin-bottom: 0;
+} 
