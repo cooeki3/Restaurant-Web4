@@ -2,18 +2,13 @@
     position: fixed;
     left:36px;
     top: 36px;
-    border: 3px coral solid;
-    padding : 8px;
-    background-color: #333;
     cursor: pointer;
-    transition: background-color 0.5s, border 0.3s;
 
     & rect{
         fill: #fff;
     }
 
     &:hover{
-        background-color: coral;
-        border: 3px #333 solid;
+        
     }
 }
