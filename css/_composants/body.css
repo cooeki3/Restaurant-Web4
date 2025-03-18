@@ -3,3 +3,8 @@ html, body {
     padding: 0;
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+
+body{
+    background-color: var(--couleur-beige);
+    color: var(--couleur-rouge);
+}

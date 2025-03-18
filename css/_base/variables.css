@@ -3,12 +3,14 @@
 :root {
         /*[ COULEURS ]*/
     --couleur-rouge: #7b0323;
+    --couleur-rouge-pale: rgba(123, 3, 35, 0.6);
     --couleur-beige: #fff0ce;
-    --rouge-pale: rgba(123, 3, 35, 0.6);
-
+    --couleur-beige-pale: rgba(255, 240, 206, 0.6);
         /*[ TYPO ]*/
     --police-hind: "Hind Guntur", sans-serif;
     --police-parisian: "Parisian", cursive;
+    --weigth-light: 300;
+    --weigth-regular: 400;
 }
 
 

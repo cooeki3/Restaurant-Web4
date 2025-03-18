@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Table d'Olivier</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="javascript.js"></script>
 </head>
 
 <body>
@@ -13,8 +15,8 @@
         <video id="bg-video" autoplay loop muted playsinline>
             <source src="assets/video/bg-video-dark.mp4" type="video/mp4">
         </video>
-        <nav>
-            <button id="burger-menu">
+        <div class="nav">
+            <button id="burger-menu" onclick="openNav()">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -23,20 +25,53 @@
                 <img class="logo-accueil" src="assets/png/logo.png" alt="Logo du restaurant">
             </div>
             <div class="btn-container">
-                <button class="reserver-btn">Réserver <span class="fleche-accueil">&#x2192;</span></button>
+                <button class="reserver-btn">Réserver
+                    <span class="fleche-accueil">&#x2192;</span>
+                </button>
             </div>
-            <ul>
-                <li><a href="#">Entrées</a></li>
-                <li><a href="#">Repas</a></li>
-                <li><a href="#">Desserts</a></li>
-                <li><a href="#">Cave à vin</a></li>
-                <li>
-                    <button>
-                        <a href="#">Réservation</a>
-                    </button>
-                </li>
-            </ul>
-        </nav>
+            <div id="nav-content" class="nav-content">
+                <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">
+                    <span class="material-icons">close</span>
+                </a>
+                <ul>
+                    <li><a href="Erreur404.html">Entrées</a></li>
+                    <li><a href="#">Repas</a></li>
+                    <li><a href="#">Desserts</a></li>
+                    <li><a href="#">Cave à vin</a></li>
+                    <li><a href="#">Accueil</a></li>
+                    <li>
+                        <button>
+                            <a class="reserver-btn" href="#">Réserver</a>
+                        </button>
+                    </li>
+                </ul>
+
+                <footer class="nav-footer">
+                    <p><span class="horaire">HORAIRE</span><br>
+                        LUNDI - SAMEDI<br>
+                        12H00 - 14H00<br>
+                        18H30 - 21H30
+                    </p>
+                    <p><span class="rejoindre">NOUS REJOINDRE</span><br>
+                        450-509-0947
+                    </p>
+                    <p>1049 Rue Valiquette, Sainte-Adèle, QC J8B 2M4</p>
+
+                    <ul class="footer-links">
+                        <li><a href="#">Carrière</a></li>
+                        <li><a href="#">Événements</a></li>
+                        <li><a href="#">Promotions</a></li>
+                    </ul>
+
+                    <div class="social-media">
+                        <img src="assets/png/Icon-instagram.png" alt="Logo Instagram">
+                        <img src="assets/png/Icon-facebook.png" alt="Logo Facebook">
+                        <img src="assets/png/Icon-youtube.png" alt="Logo YouTube">
+                    </div>
+                    <p class="droits">© La Table D'Olivier, 2025. Tous droits réservés.</p>
+                </footer>
+            </div>
+        </div>
     </header>
 
     <section class="section-affiche">
@@ -44,17 +79,20 @@
         <hr>
         <div class="carousel">
             <div class="menu-card">
+                <img src="assets/svg/placeholder.svg" alt="">
                 <h3>OUVERTURE</h3>
                 <p>Nous avons le plaisir de vous annoncer que notre restaurant ouvrira ses portes le 30 mai. Venez
                     découvrir l’expérience culinaire du chef Laurent Lemoine, alliant tradition et créativité, dans un
                     cadre raffiné et chaleureux.</p>
             </div>
             <div class="menu-card">
+                <img src="assets/svg/placeholder.svg" alt="">
                 <h3>MENU 7 SERVICES</h3>
                 <p>Le menu 7 services offre une expérience de cuisine française traditionnelle avec des produits locaux
                     de qualité, pour des plats raffinés et savoureux...</p>
             </div>
             <div class="menu-card">
+                <img src="assets/svg/placeholder.svg" alt="">
                 <h3>TABLE D'HÔTE</h3>
                 <p>Un choix de trois tables d’hôtes met à l’honneur la gastronomie française à travers des associations
                     subtiles de saveurs, des produits d’exception et...</p>
@@ -63,7 +101,7 @@
     </section>
 
     <section class="chef-section">
-        <img src="" alt="Portrait du chef Laurent Lemoine">
+        <img src="assets/svg/placeholder.svg" alt="Portrait du chef Laurent Lemoine">
         <h2>Le chef</h2>
         <p>Formé au sein des plus grandes écoles culinaires de Paris, le Chef Laurent Lemoine a travaillé dans des
             restaurants étoilés comme Le Meurice et L'Ambroisie avant de prendre la direction de plusieurs
@@ -72,7 +110,7 @@
     </section>
 
     <section class="vision">
-        <img src="" alt="Image illustrant la vision du chef">
+        <img src="assets/svg/placeholder.svg" alt="Image illustrant la vision du chef">
         <div class="vertical-line-1"></div>
         <h2>Sa vision</h2>
         <p>La Table d'Olivier allie l’élégance de la cuisine française à une touche contemporaine. Le chef Olivier
@@ -103,7 +141,7 @@
     </section>
 
     <section class="team">
-        <img src="" alt="Photo de l'équipe du chef">
+        <img src="assets/svg/placeholder.svg" alt="Photo de l'équipe du chef">
         <h2>Son équipe</h2>
         <p>L’équipe du chef Laurent Lemoine est composée de passionnés, unis par l’amour de la cuisine et le désir de
             créer des expériences culinaires exceptionnelles. Chacun apporte son savoir-faire et sa créativité pour
@@ -117,7 +155,7 @@
             12H00 - 14H00<br>
             18H30 - 21H30
         </p>
-        <p><span class="horaire">NOUS REJOINDRE</span><br>
+        <p><span class="rejoindre">NOUS REJOINDRE</span><br>
             450-509-0947
         </p>
         <p>1049 Rue Valiquette, Sainte-Adèle, QC J8B 2M4</p>
@@ -129,12 +167,12 @@
         </ul>
 
         <div class="social-media">
-            <img src="" alt="Logo Instagram">
-            <img src="" alt="Logo Facebook">
-            <img src="" alt="Logo YouTube">
+            <img src="assets/png/Icon-instagram.png" alt="Logo Instagram">
+            <img src="assets/png/Icon-facebook.png" alt="Logo Facebook">
+            <img src="assets/png/Icon-youtube.png" alt="Logo YouTube">
         </div>
 
-        <p>© La Table D'Olivier, 2025. Tous droits réservés.</p>
+        <p class="droits">© La Table D'Olivier, 2025. Tous droits réservés.</p>
     </footer>
 </body>
 
