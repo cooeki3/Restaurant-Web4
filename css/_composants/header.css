@@ -1,0 +1,17 @@
+#bg-video {
+height: 100vh;
+overflow: body;
+z-index: -1;
+overflow-x: hidden;
+position: relative;
+right: 650px;
+}
+
+.logo-accueil{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    z-index: 1;
+}
