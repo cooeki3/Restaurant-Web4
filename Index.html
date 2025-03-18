@@ -10,28 +10,33 @@
 
 <body>
     <header>
-        <video autoplay loop muted playsinline>
-            <source src="assets/video/Final-2-NO-DARk.mp4" type="video/mp4">
+        <video id="bg-video" autoplay loop muted playsinline>
+            <source src="assets/video/bg-video-dark.mp4" type="video/mp4">
         </video>
         <nav>
-            <button id="burger--menu">
+            <button id="burger-menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
+            <div>
+                <img class="logo-accueil" src="assets/png/logo.png" alt="Logo du restaurant">
+            </div>
+            <div class="btn-container">
+                <button class="reserver-btn">Réserver</button>
+            </div>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Le Chef</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Réservation</a></li>
+                <li><a href="#">Entrées</a></li>
+                <li><a href="#">Repas</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Cave à vin</a></li>
+                <li>
+                    <button>
+                        <a href="#">Réservation</a>
+                    </button>
+                </li>
             </ul>
         </nav>
-        <div>
-            <img class="logo-accueil" src="" alt="Logo du restaurant">
-        </div>
-        <div class="btn-container">
-            <button class="btn">Réserver</button>
-        </div>
     </header>
 
     <section class="section-affiche">
@@ -40,15 +45,19 @@
         <div class="carousel">
             <div class="menu-card">
                 <h3>OUVERTURE</h3>
-                <p>Nous avons le plaisir de vous annoncer que notre restaurant ouvrira ses portes le 30 mai. Venez découvrir l’expérience culinaire du chef Laurent Lemoine, alliant tradition et créativité, dans un cadre raffiné et chaleureux.</p>
+                <p>Nous avons le plaisir de vous annoncer que notre restaurant ouvrira ses portes le 30 mai. Venez
+                    découvrir l’expérience culinaire du chef Laurent Lemoine, alliant tradition et créativité, dans un
+                    cadre raffiné et chaleureux.</p>
             </div>
             <div class="menu-card">
                 <h3>MENU 7 SERVICES</h3>
-                <p>Le menu 7 services offre une expérience de cuisine française traditionnelle avec des produits locaux de qualité, pour des plats raffinés et savoureux...</p>
+                <p>Le menu 7 services offre une expérience de cuisine française traditionnelle avec des produits locaux
+                    de qualité, pour des plats raffinés et savoureux...</p>
             </div>
             <div class="menu-card">
                 <h3>TABLE D'HÔTE</h3>
-                <p>Un choix de trois tables d’hôtes met à l’honneur la gastronomie française à travers des associations subtiles de saveurs, des produits d’exception et...</p>
+                <p>Un choix de trois tables d’hôtes met à l’honneur la gastronomie française à travers des associations
+                    subtiles de saveurs, des produits d’exception et...</p>
             </div>
         </div>
     </section>
@@ -56,14 +65,19 @@
     <section class="chef-section">
         <img src="" alt="Portrait du chef Laurent Lemoine">
         <h2>Le chef</h2>
-        <p>Formé au sein des plus grandes écoles culinaires de Paris, le Chef Laurent Lemoine a travaillé dans des restaurants étoilés comme Le Meurice et L'Ambroisie avant de prendre la direction de plusieurs établissements en France. Il s'est récemment installé au Québec pour y apporter son expertise et sa vision de la haute cuisine.</p>
+        <p>Formé au sein des plus grandes écoles culinaires de Paris, le Chef Laurent Lemoine a travaillé dans des
+            restaurants étoilés comme Le Meurice et L'Ambroisie avant de prendre la direction de plusieurs
+            établissements en France. Il s'est récemment installé au Québec pour y apporter son expertise et sa vision
+            de la haute cuisine.</p>
     </section>
 
     <section class="vision">
         <img src="" alt="Image illustrant la vision du chef">
         <div class="vertical-line-1"></div>
         <h2>Sa vision</h2>
-        <p>La Table d'Olivier allie l’élégance de la cuisine française à une touche contemporaine. Le chef Olivier Lemoine revisite les grands classiques avec audace, offrant une expérience raffinée où tradition et modernité se rencontrent.</p>
+        <p>La Table d'Olivier allie l’élégance de la cuisine française à une touche contemporaine. Le chef Olivier
+            Lemoine revisite les grands classiques avec audace, offrant une expérience raffinée où tradition et
+            modernité se rencontrent.</p>
     </section>
 
     <section class="prix">
@@ -71,7 +85,8 @@
         <ul>
             <li><span class="bold">Prix Gastronomique</span> du C.I.C.F. (2018)</li>
             <li><span class="bold">Chef de l'Année</span> par le Guide des Croqueurs de France (2017)</li>
-            <li><span class="bold">Prix du Meilleur Plat Traditionnel</span> par la Critique Culinaire de France (2015)</li>
+            <li><span class="bold">Prix du Meilleur Plat Traditionnel</span> par la Critique Culinaire de France (2015)
+            </li>
             <li><span class="bold">Trois Étoiles Michelin</span> pour son restaurant « Le Bœuf d'Or » (2012)</li>
             <li><span class="bold">Meilleur Chef Français</span> par le Guide Michelin (2010)</li>
             <li><span class="bold">Prix de la Gastronomie Française à l'International</span> (2005)</li>
@@ -90,7 +105,10 @@
     <section class="team">
         <img src="" alt="Photo de l'équipe du chef">
         <h2>Son équipe</h2>
-        <p>L’équipe du chef Laurent Lemoine est composée de passionnés, unis par l’amour de la cuisine et le désir de créer des expériences culinaires exceptionnelles. Chacun apporte son savoir-faire et sa créativité pour sublimer chaque plat, en accord avec la vision du chef, afin d’offrir une expérience gastronomique inoubliable à chaque client.</p>
+        <p>L’équipe du chef Laurent Lemoine est composée de passionnés, unis par l’amour de la cuisine et le désir de
+            créer des expériences culinaires exceptionnelles. Chacun apporte son savoir-faire et sa créativité pour
+            sublimer chaque plat, en accord avec la vision du chef, afin d’offrir une expérience gastronomique
+            inoubliable à chaque client.</p>
     </section>
 
     <footer>
