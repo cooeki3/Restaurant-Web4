@@ -1,14 +1,27 @@
-#burger--menu{
+#burger--menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px; /* Adjust the width */
+    height: 24px; /* Adjust the height */
     position: fixed;
-    left:36px;
-    top: 36px;
+    left: 15px;
+    top: 15px;
     cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    transform-origin: center;
+}
 
-    & rect{
-        fill: #fff;
-    }
+#burger--menu span {
+    display: block;
+    width: 100%;
+    height: 2px; /* Adjust the thickness */
+    background-color: var(--couleur-beige);
+    transition: transform 0.5s ease-out;
+}
 
-    &:hover{
-        
-    }
+#burger--menu:hover span {
+    transform: scale(1.2);
 }

@@ -6,7 +6,7 @@
 
 /*[ importation du dossier _composants ]*/
 @import url('_composants/footer.css');
-@import url('_composants/header-logo.css');
+@import url('_composants/header.css');
 @import url('_composants/nav-primary.css');
 @import url('_composants/nav-burger.css');
 @import url('_composants/nav-menu.css');
