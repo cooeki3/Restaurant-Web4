@@ -28,9 +28,14 @@
             white-space: nowrap;
             display: block;
 
+            hr {
+                border: solid 1px var(--couleur-beige);
+            }
+
             a {
                 text-decoration: none;
                 display: block;
+
             }
         }
     }
